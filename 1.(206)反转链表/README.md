@@ -41,10 +41,6 @@ function ListNode(val, next) {
   }
   return head;
 }
-let arr = [1, 3, 4, 5];
-let linkHead = linkFrom(arr);
-let string = toString(linkHead);
-console.log(string);
 // 测试打印
 let arr = [1, 3, 4, 5];
 let linkHead = linkFrom(arr);
